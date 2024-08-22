@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,31 +13,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'bt-color': '#ABEF5F',
+      
+              
+            }
+          }
+        }
+      }
+    </script>
     <style>
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
     </style>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'custom-colour': '#ABEF5F',
-              }
-            }
-          }
-        }
-      </script>    
+    
 </head>
 <body class="font-manrope">
     <header class="container mx-auto">
         <!-- navbar start  -->
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            
+            <a class="btn btn-ghost  text-xl"><div class="h-6 w-6 border rounded-full text-sm bg-bt-color"><i class="fa-solid fa-arrow-right -rotate-45"></i></div>Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end ">
+            <div class="flex gap-3 mr-3 " ><div class="h-6 w-6 border rounded-full text-sm border-none bg-slate-400 p-1 text-white"><i class="fa-solid fa-magnifying-glass"></i></i></div><div class="h-6 w-6 border rounded-full text-sm border-none bg-slate-400 p-1 text-white"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>   
+            <a class="btn bg-bt-color rounded-3xl font-bold">Book Consult<div class="h-6 w-6 border rounded-full text-sm bg-black border-none text-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></div></a>
+          </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                
+              </ul> 
+          </div>
+        </div>
+        <div class="flex flex-col items-center ">
+          <div class="">
+            <img src="assets/banner.png" alt="">
+          </div>
+          <div class="text-center mt-5">
+            <h1 class="text-5xl font-extrabold">A barn house of this design has a <br> striking appearance</h1>
+            <p class="mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <a class="btn rounded-3xl mt-5 bg-bt-color"> View Details<i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+          </div>
+        </div>
         <!-- navbar end -->
     </header>
-    <main>
+    <main class="container mx-auto">
         <!-- main section  -->
+         <!-- banner start  -->
+         <!-- banner end -->
         <!-- main section  end-->
     </main>
     <footer>
