@@ -97,13 +97,13 @@
     <main>
         <!-- main section  -->
          <div class="bg-gray-100">
-         <div class="md:flex mt-20 container mx-auto justify-between p-6 gap-4 text-center md:text-left">
+         <div class="md:flex mt-20 container mx-auto justify-between p-6 gap-4 ">
           <div class="md:w-1/2 ">
             <div class=" border border-dashed w-28 hidden sm:block"><img src="assets/Vector.png" alt=""></div>
-            <a class="shadow-lg rounded-xl p-1 text-sm ml-4 mt-4 bg-white"><button><i class="fa-solid fa-arrow-right "></i> About Us</button></a>
-            <h1 class="text-3xl font-bold mt-4 mb-2">We design thoughtful, <br> liveable spaces</h1>
-            <p class="text-sm mb-6">The barn house captivates with its blend of rustic charm and 
-              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="text-center md:text-left"><a class="shadow-lg rounded-xl p-1 text-sm ml-4 mt-4 bg-white"><button><i class="fa-solid fa-arrow-right "></i> About Us</button></a>
+              <h1 class="text-3xl font-bold mt-4 mb-2">We design thoughtful, <br> liveable spaces</h1>
+              <p class="text-sm mb-6">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p></div>
               <div class="space-y-6">
               <div class="shadow-xl flex rounded-lg p-4 gap-4 bg-white">
                 <div>
@@ -194,46 +194,50 @@
             <!-- 4th part end -->
           </div>
           <!-- latest portfolio section start  -->
-           <div class="mt-8 container mx-auto p-4">
+          <div class="mt-8 container mx-auto p-4">
             <div class="text-center">
               <a class="btn rounded-3xl bg-bt-color"><i class="fa-solid fa-arrow-right "></i> Explore Our Latest Works</i></a>
               <h1 class="text-3xl font-bold mt-4">Our Latest Portfolio</h1>
               <p class="text-sm mt-4">The barn house captivates with its blend of rustic charm and <br> modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
-            <div class="md:grid w-full md:grid-cols-12 gap-4 mt-4">
-              <div class="border p-4 rounded-xl md:flex col-span-8 ">
-                <div class="md:w-full">
-                  <img src="assets/img1.png" alt="">
+            <div class=" lg:grid-cols-12 grid grid-cols-1 gap-4 mt-4 ">
+              <div class="border p-4 rounded-xl md:flex space-x-3 lg:col-span-8 h-full  ">
+                <div class="">
+                  <img class="w-full h-full" src="assets/img1.png" alt="">
                 </div>
                 <div>
-                  <h1 class="font-bold">Commercial</h1>
-                  <p class="mt-2 text-sm">The barn house captivates with its blend of  rustic charm and modern.  The barn house captivates with its blend. </p>
+                  <h1 class="font-bold mt-2">Commercial</h1>
+                  <p class="mt-2 lg:mt-4 text-sm">The barn house captivates with its blend of  rustic charm and modern.  The barn house captivates with its blend. </p>
                   <a class="btn rounded-3xl mt-2 bg-gray-50"> View Details<div class="h-6 w-6 border rounded-full text-sm bg-bt-color border-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></div></i></a>
                 </div>
-              </div>
-              <div class="col-span-4">
-                <div class="border p-4 rounded-xl flex md:w-full"><img src="assets/img2.png" alt=""></div>
-              </div>
-              <div class="col-span-3">
-                <div class="border p-4 rounded-xl flex justify-center"><img src="assets/img3.png" alt=""></div>
-              </div>
-              <div class="col-span-6 items-center">
-                <div class="border p-4 rounded-xl md:flex md:gap-4 ">
-                  <div class="md:w-full">
-                    <img src="assets/img4.png" alt="">
-                  </div>
-                  <div>
-                    <h1 class="font-bold">Commercial</h1>
-                    <p class="mt-2 text-sm">The barn house captivates with its blend of  rustic charm and modern. </p>
-                    <a class="btn rounded-3xl mt-2 bg-gray-50"> View Details<div class="h-6 w-6 border rounded-full text-sm bg-bt-color border-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></div></i></a>
-                  </div>
                 </div>
-              </div>
-              <div class="col-span-3">
-                <div class="border  rounded-xl p-4  "><img src="assets/img5.png" alt=""></div>
-              </div>
-            </div>
-           </div>
+                <div class="lg:col-span-4 ">
+                  <div class="border  rounded-xl flex p-4 "><img class="w-full" src="assets/img2.png" alt=""></div>
+                </div>
+                <div class="lg:col-span-3">
+                  <div class="border p-4 rounded-xl"><img class="w-full" src="assets/img3.png" alt=""></div>
+                </div>
+                <div class="lg:col-span-6  ">
+                  <div class="border p-4 rounded-xl md:flex md:space-x-3 h-full">
+                    <div class="">
+                      <img class="w-full h-full" src="assets/img4.png" alt="">
+                    </div>
+                    <div>
+                      <h1 class="font-bold mt-2">Commercial</h1>
+                      <p class="mt-2 lg:mt-4 text-sm">The barn house captivates with its blend of  rustic charm and modern. </p>
+                      <a class="btn rounded-3xl lg:mt-6 mt-2 bg-gray-50"> View Details<div class="h-6 w-6 border rounded-full text-sm bg-bt-color border-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></div></i></a>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="lg:col-span-3">
+                  <div class="border p-4 rounded-xl"><img class="w-full" src="assets/img5.png" alt=""></div>
+                </div>
+                <div class="md:hidden ">
+                  <div class="border p-4 rounded-xl"><img class="w-full" src="assets/img5.png" alt=""></div>
+                </div>
+                </div>
+                </div>
           <!-- latest portfolio section end -->
            <!-- input section start  -->
             <div class="bg-[url('assets/bg.jpg')] mt-6 bg-no-repeat bg-cover">
